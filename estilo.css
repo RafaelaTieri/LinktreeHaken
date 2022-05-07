@@ -48,3 +48,18 @@ body {
     font-size: 1.2rem;
     text-align: center;
 }
+
+.botao {
+    background-color: var(--cor_dois);
+    color: var(--cor_um);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: solid 5px var(--cor_dois);
+    transition: all 0.5s linear;
+    border-radius: 50px;
+}
