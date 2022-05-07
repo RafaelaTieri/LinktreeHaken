@@ -11,25 +11,40 @@
 :root {
     --cor_um: #ffffff;
     --cor_dois: #e593b3;
+    --cor_background_um: #f171a2;
+    --cor_backgroud_dois: #82d7f8;
+    --cor_backgroud_tres: #e273d0;
+
 }
 
 body {
-    background: linear-gradient(180deg, #f171a2, #82d7f8, #e273d0) fixed;
+    background: linear-gradient(180deg, var(--cor_background_um), var(--cor_backgroud_dois), var(--cor_backgroud_tres)) fixed;
 }
 
 .principal {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90vw;
+    width: 30vw;
     margin: 0 auto;
     gap: 20px;
+    background: var(--cor_um);
     padding-top: 5vw;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .principal img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    z-index: 1;
+}
+
+.principal h3 {
+    font-size: 1.2rem;
+    text-align: center;
 }
