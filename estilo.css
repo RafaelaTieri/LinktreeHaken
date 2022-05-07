@@ -69,3 +69,9 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+
+@media (max-width: 600px) {
+    .principal {
+        width: 90vw;
+    }
+}
