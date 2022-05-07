@@ -16,3 +16,13 @@
 body {
     background: linear-gradient(180deg, #f171a2, #82d7f8, #e273d0) fixed;
 }
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+    gap: 20px;
+    padding-top: 5vw;
+}
