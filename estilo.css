@@ -26,3 +26,10 @@ body {
     gap: 20px;
     padding-top: 5vw;
 }
+
+.principal img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 1;
+}
