@@ -14,11 +14,17 @@
     --cor_background_um: #f171a2;
     --cor_backgroud_dois: #82d7f8;
     --cor_backgroud_tres: #e273d0;
-
 }
 
 body {
-    background: linear-gradient(180deg, var(--cor_background_um), var(--cor_backgroud_dois), var(--cor_backgroud_tres)) fixed;
+    background: linear-gradient(180deg, var(--cor_background_um), var(--cor_backgroud_tres), var(--cor_backgroud_dois)) fixed;
+}
+
+.darkMode {
+
+    background: #222222;
+    color: rgb(236, 228, 228);
+
 }
 
 .principal {
@@ -82,6 +88,8 @@ body {
     color: var(--cor_um);
     border-radius: 40px;
     border: 1px solid var(--cor_um);
+
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
