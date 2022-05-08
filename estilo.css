@@ -20,7 +20,7 @@ body {
     background: linear-gradient(180deg, var(--cor_background_um), var(--cor_backgroud_tres), var(--cor_backgroud_dois)) fixed;
 }
 
-.darkMode {
+.dark_mode {
 
     background: #222222;
     color: rgb(236, 228, 228);
